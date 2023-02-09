@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Auth, signInWithEmailAndPassword } from 'firebase/auth';
+import { Auth, signInWithEmailAndPassword } from '@angular/fire/auth';
 import { from } from 'rxjs';
 
 

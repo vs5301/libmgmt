@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'libmgmt'`, () => {
+  it(`should have as title 'dummyproject'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('libmgmt');
+    expect(app.title).toEqual('dummyproject');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('libmgmt app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('dummyproject app is running!');
   });
 });
